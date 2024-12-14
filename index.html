@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC Style - Loja Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">KC Style</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bem-vindo à KC Style</h1>
+        <p>Moda para todos os estilos. Explore nossas coleções.</p>
+        <a href="#products" class="btn">Ver Produtos</a>
+    </section>
+
+    <section id="products">
+        <h2>Produtos em Destaque</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="produto1.jpg" alt="Produto 1">
+                <h3>Camiseta Básica</h3>
+                <p>€49,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="produto2.jpg" alt="Produto 2">
+                <h3>Jaqueta Estilosa</h3>
+                <p>€199,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="produto3.jpg" alt="Produto 3">
+                <h3>Calça Jeans</h3>
+                <p>€129,90</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A KC Style nasceu para trazer moda acessível e de qualidade. Nosso compromisso é com o seu estilo e conforto.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KC Style. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/Kcstylin" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/k.c.style?igsh=ZzEzdHFmNzhyeXQx" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
